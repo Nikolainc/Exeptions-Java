@@ -17,6 +17,7 @@ public class DataProvider implements IProvider{
 
             fw.append(data.toString());
             fw.append("\n");
+            fw.close();
 
         } catch (IOException e) {
 
